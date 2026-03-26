@@ -68,7 +68,29 @@ a {
 }
 
 .brand-name {
-  display: inline-block;
+  font-size: 1.9rem;
+  font-weight: 800;
+  line-height: 1;
+  letter-spacing: -0.03em;
+}
+
+.project-head {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 14px;
+}
+
+.project-icon {
+  width: 32px;
+  height: 32px;
+  border-radius: 8px;
+  display: block;
+  object-fit: contain;
+}
+
+.project-card h3 {
+  margin: 0;
 }
 
 .button {
