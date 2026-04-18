@@ -184,8 +184,8 @@ a {
 
 .project-links {
   display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
+  flex-wrap: wrap;
+  gap: 0.75rem 1rem;
   margin-top: 1rem;
 }
 
